@@ -11,6 +11,8 @@ const askQuestion = (i) => {
     process.stdout.write(`please answer questions \n ${questions[i]} \n`)
 }
 
+
+//important: input function of the process in node, can take input data
 process.stdin.on('data', (data) => {
     answer.push(data.toString().trim());
     if(answer.length<questions.length){
