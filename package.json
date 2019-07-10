@@ -1,0 +1,26 @@
+{
+  "name": "ski-dictionary",
+  "version": "1.0.0",
+  "description": "dictionary",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/Samxzeng/nodejs.git",
+  "keywords": [
+    "ski",
+    "term",
+    "dictionary"
+  ],
+  "author": "sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samxzeng/nodejs/issues"
+  },
+  "homepage": "https://github.com/Samxzeng/nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
